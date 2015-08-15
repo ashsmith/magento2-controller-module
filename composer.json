@@ -2,7 +2,7 @@
   "name": "ashsmith/magento2-controller-module",
   "description": "A basic Magento 2 module with a controller",
   "type": "magento2-module",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "license": [
     "OSL-3.0",
     "AFL-3.0"
@@ -14,7 +14,7 @@
   "extra": {
     "map": [
       [
-        "Ashsmith/HelloWorld",
+        "*",
         "Ashsmith/HelloWorld"
       ]
     ]

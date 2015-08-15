@@ -2,7 +2,19 @@
 
 From my blog post: https://www.ashsmith.io/2014/12/simple-magento2-controller-module/
 
-###To install:
+## To install:
 
-- Copy into app/code
-- Modify app/etc/config.php to include the module name "Ashsmith_HelloWorld". There is a 'modules' key which contains an array of active modules, add it to the end of the array. 
+Install with Composer!
+
+    composer require ashsmith/magento2-controller-module:2.0.0
+
+Then you'll need to modify `app/etc/config.php` to activate the module. It should look a little like this:
+
+    <?php
+    return array (
+        'modules' =>
+        array (
+            ...
+            'Ashsmith_HelloWorld' => 1,
+            ),
+          );
